@@ -1,0 +1,903 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4835
+Begin MonoManager ReloadAssembly
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading I:\final petrilli\directa e inversa_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading I:\final petrilli\directa e inversa_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  1.705 seconds
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: I:\final petrilli\directa e inversa_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.337403 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.790994 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 440.
+Total: 0.453833 ms (FindLiveObjects: 0.034361 ms CreateObjectMapping: 0.030791 ms MarkObjects: 0.365476 ms  DeleteObjects: 0.022312 ms)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorX.aceptaX (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.319107 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 340.
+Total: 0.316835 ms (FindLiveObjects: 0.038377 ms CreateObjectMapping: 0.022312 ms MarkObjects: 0.226247 ms  DeleteObjects: 0.029006 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.439107 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 440.
+Total: 0.474807 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.024543 ms MarkObjects: 0.384665 ms  DeleteObjects: 0.023204 ms)
+
+COM6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+21.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+xp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+yp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+zp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+theta1 NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta2 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta3 -1.245653
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta4 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorX.aceptaX (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos3 (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorZ.aceptaZ (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos2 (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorY.aceptaY (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+13.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+xp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+yp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+zp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+theta1 NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta2 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta3 -1.245653
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta4 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+xp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+yp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+zp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+theta1 NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta2 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta3 -1.245653
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta4 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorX.aceptaX (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos2 (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorY.aceptaY (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at EnviaI.Enviardatos3 (System.String v1) [0x00000] in <filename unknown>:0 
+  at ValorZ.aceptaZ (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+13.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+10.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+xp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+yp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+zp= 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+theta1 NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta2 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta3 -1.245653
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Theta4 0.6228266
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.829574 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 340.
+Total: 0.415902 ms (FindLiveObjects: 0.040608 ms CreateObjectMapping: 0.030344 ms MarkObjects: 0.319513 ms  DeleteObjects: 0.023651 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.485071 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 472.
+Total: 0.475699 ms (FindLiveObjects: 0.045517 ms CreateObjectMapping: 0.020973 ms MarkObjects: 0.383772 ms  DeleteObjects: 0.023204 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.698377 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 0.314604 ms (FindLiveObjects: 0.036146 ms CreateObjectMapping: 0.029006 ms MarkObjects: 0.225354 ms  DeleteObjects: 0.022312 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.429290 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 441.
+Total: 0.402068 ms (FindLiveObjects: 0.034807 ms CreateObjectMapping: 0.021419 ms MarkObjects: 0.315496 ms  DeleteObjects: 0.029898 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.702393 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 0.299878 ms (FindLiveObjects: 0.033468 ms CreateObjectMapping: 0.019634 ms MarkObjects: 0.207058 ms  DeleteObjects: 0.027667 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.485963 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 472.
+Total: 0.517647 ms (FindLiveObjects: 0.048194 ms CreateObjectMapping: 0.033022 ms MarkObjects: 0.405192 ms  DeleteObjects: 0.029898 ms)
+
+COM6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+98
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+48.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-53.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0000.00 0048.00 0-53.00 0005.00 0000.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+31.93443
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9.738851
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos2 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada2.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos3 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada3.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos4 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada4.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos5 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada5.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+90.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+48.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+90.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-53.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+5.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0090.00 0048.00 0-53.00 0005.00 0000.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0090.00 0048.00 0-53.00 0005.00 0000.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-1.395898E-06
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+31.93443
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9.738851
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos2 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada2.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos3 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada3.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos4 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada4.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+FormatException: Invalid format.
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Single.Parse (System.String s, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at Enviar.Enviardatos5 (System.String v1) [0x00000] in <filename unknown>:0 
+  at Entrada5.AcceptStringInput (System.String userinput) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.SendOnSubmit () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.DeactivateInputField () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.InputField.OnDeselect (UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IDeselectHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject(GameObject, BaseEventData)
+UnityEngine.EventSystems.PointerInputModule:DeselectIfSelectionChanged(GameObject, BaseEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+60.0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+60.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+-53.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+25.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0060.00 0060.00 0-53.00 0025.00 0000.00
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+14.90683
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+25.81938
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+16.43905
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Puerto Cerrado
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.755496 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 0.482839 ms (FindLiveObjects: 0.049979 ms CreateObjectMapping: 0.030791 ms MarkObjects: 0.366369 ms  DeleteObjects: 0.034361 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1570 -> priority: 1 
+  Thread -> id: 2ea8 -> priority: 1 

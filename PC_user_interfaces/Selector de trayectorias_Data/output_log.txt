@@ -1,0 +1,132 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4835
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.067 seconds
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\AlejandroDaniel\Downloads\libros\8 semestre\Robótica\Final\final petrilli\Selector de trayectorias_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 3.163894 ms
+COM6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IOException: The port `COM6' does not exist.
+  at System.IO.Ports.WinSerialStream.ReportIOError (System.String optional_arg) [0x00000] in <filename unknown>:0 
+  at System.IO.Ports.WinSerialStream..ctor (System.String port_name, Int32 baud_rate, Int32 data_bits, Parity parity, StopBits sb, Boolean dtr_enable, Boolean rts_enable, Handshake hs, Int32 read_timeout, Int32 write_timeout, Int32 read_buffer_size, Int32 write_buffer_size) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.WinSerialStream:.ctor (string,int,int,System.IO.Ports.Parity,System.IO.Ports.StopBits,bool,bool,System.IO.Ports.Handshake,int,int,int,int)
+  at System.IO.Ports.SerialPort.Open () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.SerialPort:Open ()
+  at Puerto.open () [0x00000] in <filename unknown>:0 
+  at Abrir.HolaPuerto () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+IOException: The port `COM6' does not exist.
+  at System.IO.Ports.WinSerialStream.ReportIOError (System.String optional_arg) [0x00000] in <filename unknown>:0 
+  at System.IO.Ports.WinSerialStream..ctor (System.String port_name, Int32 baud_rate, Int32 data_bits, Parity parity, StopBits sb, Boolean dtr_enable, Boolean rts_enable, Handshake hs, Int32 read_timeout, Int32 write_timeout, Int32 read_buffer_size, Int32 write_buffer_size) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.WinSerialStream:.ctor (string,int,int,System.IO.Ports.Parity,System.IO.Ports.StopBits,bool,bool,System.IO.Ports.Handshake,int,int,int,int)
+  at System.IO.Ports.SerialPort.Open () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.SerialPort:Open ()
+  at Puerto.open () [0x00000] in <filename unknown>:0 
+  at Abrir.HolaPuerto () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+COM5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Puerto Abierto
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+El esclavo está trabajando en la trayectoria 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+El esclavo está trabajando en la trayectoria 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Puerto Cerrado
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+COM5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Puerto Abierto
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Puerto Cerrado
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+COM5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<RI.Hid> Failed to create device file:
+ 20 El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+
+ 
+(Filename:  Line: 54)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 55e0 -> priority: 1 
+  Thread -> id: 5504 -> priority: 1 
